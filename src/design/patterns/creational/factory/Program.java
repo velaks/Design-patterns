@@ -13,7 +13,7 @@ public class Program {
 	}
 	
 	public static void main(String args[]) {
-		DeveloperFactory developerFactory = createDeveloperFactoryBySpeciality("php");
+		DeveloperFactory developerFactory = createDeveloperFactoryBySpeciality("java");
 		Developer developer = developerFactory.createDeveloper();
 		developer.writeCode();
 		
